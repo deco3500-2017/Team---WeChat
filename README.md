@@ -1,2 +1,2 @@
-# Team---WeChat
+# Team-WeChat
 Project Proposal
