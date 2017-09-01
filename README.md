@@ -1,5 +1,4 @@
 # Team-WeChat
-PDF File: https://drive.google.com/drive/folders/0B6lY9JarSd33MFd0RFJVUWhwYmc
 
 PDF File in Github: https://github.com/deco3500-2017/Team-WeChat/blob/master/Proposal.pdf
 
@@ -154,54 +153,38 @@ Within a pet care team, each pet carers are able to offer diverse aspects of ass
 In terms of the task type, each team members can be distributed specific tasks to implement. It might be a matter of particularly abilities and timetables that each team members can offer and they would coordinate their available times in order to fit the group timetables for completing all the tasks from the pet owner. Moreover, when the target carers cannot attend the intended task on time, it means that other carers in the group who are available would take the responsibility to implement the task instead of the original carers. The pet care group dedicates to complete the tasks from pet owners on time and efficiently by coordinating their group timetables.
 
 #Communication
+
 Through the process of taking care of pets, we plan to build up a platform which will engage different users to share information they need. Pet owners are allowed to publish information they need in order to form the group they need. They are able to share the resources they have with different people in different forms. We aims to strengthen social connections and bond relationship with group in the community. Pet owners and people who wants to look after pets are able to build connections in order to enhance both physical and mental harmony and improve the quality of social community. 
 
 #CSCW
-Based on our previous research, we aims to enhance social relationship with our target audience. We found computer-supported cooperative work (CSCW) provides us with a noble    
-method  to engage different target audience into a united community. It’s a multidisciplinary field  in which group members that work together asynchronously can be accessed to work and share information collaboratively, and information attached to social location, social relationship and other properties will greatly help all members eliminate “simultaneous plans”
+
+Based on our previous research, we aims to enhance social relationship with our target audience. We found computer-supported cooperative work (CSCW) provides us with a noble method to engage different target audience into a united community. It’s a multidisciplinary field  in which group members that work together asynchronously can be accessed to work and share information collaboratively, and information attached to social location, social relationship and other properties will greatly help all members eliminate “simultaneous plans”
 Meanwhile, CSCW is also helpful in terms of cost-saving and time-efficiency. Group members are allowed to share and work collaboratively from different areas in various timeline. During this process, the requirements of travel, space and other equipment are eliminated. At the same time, multiple threads will contribute to engaging people to join the community and improve participation. Moreover, CSCW has been equipped with multimedia sources, which allows users establish and maintain collaboration and communication in a long run through learning,participation and engagement. In the application WePet, it provides a platform for pet sitters to check existing pet care groups and to form teams depends on their requirements and expectations, which greatly enhances social relationship and intercommunication. 
 
-# Team Charter                        
-Members
-Name
-Degree
-E-mail
-Student Number
-Alex (Sheng Jing)
-MIDs
-jingsheng20@gmail.com
-44293749
-Dee (Di Wang)
-MIDs
-wd171842@gmail.com
-43714845
-Jane (Jiajing Sun)
-MIDs
-sunjiajing0815@gmail.com
-44434832
-Tanya(Mengwei Lin)
-MIDs
-tanyalinlin@gmail.com
-44169433
-Shawn (Xiaoyu Shang)
-MIDs
-5loverevoluion@gmail.com
-44010311
+# Team Charter
+
+Alex (Sheng Jing) MIDs jingsheng20@gmail.com 4429374
+Dee (Di Wang) MIDs wd171842@gmail.com 43714845
+Jane (Jiajing Sun) MIDs sunjiajing0815@gmail.com 44434832
+Tanya(Mengwei Lin) MIDs tanyalinlin@gmail.com 44169433
+Shawn (Xiaoyu Shang) MIDs 5loverevoluion@gmail.com 44010311
 
 Project Overview
+
 Executed by team WeChat, this project aims to design, prototype and demonstrate an active community for both pet owner and caregiver to help them look after their pets. The system features social connection and supports multiple function at the same time.
  
 Project Vision
+
 We envisage a near future in which the caregiving of pet is brought to life through a dynamic, engaging and social product. As such, Team Webchat’s vision is to provide experiences for people who have intention to raise pet but can’t be allowed to keep a pet in their apartment, as well as people who are always been occupied with their business with a new way to share resources through social connection and information share to deal with the actual dilemma. To achieve this goal, we will dedicate to implement meaningful design, maintain high standards of work and offer effective innovation.
  
 Roles and Responsibilities
+
 At the initial phase, all team members will contribute to all aspects of the project including background research and survey. Team roles and responsibilities of each member will be further specified and varied as long with the project ongoing in the next few weeks based on personal preference and skill-set.
  
-Person Roles in the team and expertise
-Alex (Sheng Jing)
-Programming, Research
-Dee (Di Wang)
-Team Leader, Project management, User Research, UI design, Prototyping
+Person Roles in the team and expertise:
+
+
+Alex (Sheng Jing): Programming, Research
 Jane (Jiajing Sun)
 Prototyping, Programming, Graphic Design
 Tanya (Mengwei Lin)
