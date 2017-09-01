@@ -197,9 +197,9 @@ Shawn (Xiaoyu Shang): Anthropology Field Work, Interview, General research, Web 
  
 The team leader will be responsible for logistics including physical equipment transportation, organize meetings, resolve conflicts, etc. All the other team members should commit to assist team leader to complete all milestones
  
-Team Dynamics
+### Team Dynamics
 
-### Commitments to This Project
+#### Commitments to This Project
 
 As a team, we commit to:
 1. Use our best endeavors and effort at all times.
@@ -327,8 +327,6 @@ Improving product based on iteration result
 Documentation
 
 # Tags
-
-#Coordination
 
 #Interconnection 
 
