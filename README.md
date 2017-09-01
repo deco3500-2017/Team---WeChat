@@ -8,13 +8,10 @@ Pets are friends of human. The number of families keeps pets in their house, pet
 In order to address this social issue, we generate a mobile application named “WePet”. The purpose of this project is to provide a platform for both pet owners and “pet volunteers” (the people who are willing to have their own pets but be limited by problems like apartment policies or other personal reasons). Several “pet volunteers” will be formed into a group basing on their preferences, backgrounds, and experiences. These groups will accept tasks from pet owners to help them solve various of problems, such as walking their dogs, feed their cats and take care their pets when they are traveling etc. (The concept and scenario are described in section 3.) During the volunteer activities, the pet volunteers could meet people who with common interests and work with them. This is a great opportunity to make friends, they could share the experience of taking care animals, the anecdotes of pets via this application. On the other hand, the requirements of pet owners will be met with high-quality services and low price. In the next sections, we will introduce the background research of establishing our concept, the comprehensive description of this project, the work break down and the project plan.
 
 # Background Research and Related Works
-
-Homeless animal situation in Australia
-
+### Homeless animal situation in Australia
 According to PETA and the Sydney Morning Herald, there are more than 20,000 cats and dogs be euthanized and destroyed every year because there are not enough resources to take care of them before they could get adopted. Therefore, the situation we found in the background research is that: on the one hand, many good hearted people want to take care of little animals but cannot have pets for some external reasons. On the other hand, there are even more cats and dogs dead or unfairly treated because of a lack of resources.
 
-Government Policy and legal restrictions
-
+### Government Policy and legal restrictions
 Why we keep pets?
 
 The companionship of both physical and mental value of pets is immeasurable. If you own a pet, you’ll understand the joy, support and companionship your pet can give. When you suffer a bad day, a walk with your dog, or a hug with you cat can greatly help you get out of trouble. Also, they are engaging more people to live a united community. They inspire people to build up a broader community to help homeless people who deserve love and healthcare.
