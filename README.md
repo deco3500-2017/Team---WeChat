@@ -1,6 +1,8 @@
 # Team-WeChat
 
-PDF File in Github: https://github.com/deco3500-2017/Team-WeChat/blob/master/Proposal.pdf
+For project proposal, please refer to PDF File 
+
+in Github: https://github.com/deco3500-2017/Team-WeChat/blob/master/Proposal.pdf
 
 # Introduction
 Pets are friends of human. The number of families keeps pets in their house, pets accompany them as an important family member. The companions of pets could reduce the negative emotions, such as anxiety, loneliness, and sadness, and provide happiness for people. This companionship is typically meaningful for those who live alone, like aging people, singles. They might emotionally dependent on pets like their children or closest friends. There is a trend that the development of the city with the fast pace. As a consequence, the increasing number of urban dwellers live in the apartment. The apartment policies restrict residents to keep their own pets for reasons like sanitation and noise. It could not be ignored that the requirements of keeping pets of apartment residents still remain. Especially, the apartment is a valuable choice for people who live alone, due to the housing area. In addition, the pets keeping is a current requirement for pets owners when they could not take care their pets in the period like travel and work overtime. 
