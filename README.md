@@ -1,8 +1,6 @@
 # Team-WeChat
 
-For project proposal, please refer to PDF File 
-
-in Github: https://github.com/deco3500-2017/Team-WeChat/blob/master/Proposal.pdf
+PDF File in Github: https://github.com/deco3500-2017/Team-WeChat/blob/master/Proposal.pdf
 
 # Introduction
 Pets are friends of human. The number of families keeps pets in their house, pets accompany them as an important family member. The companions of pets could reduce the negative emotions, such as anxiety, loneliness, and sadness, and provide happiness for people. This companionship is typically meaningful for those who live alone, like aging people, singles. They might emotionally dependent on pets like their children or closest friends. There is a trend that the development of the city with the fast pace. As a consequence, the increasing number of urban dwellers live in the apartment. The apartment policies restrict residents to keep their own pets for reasons like sanitation and noise. It could not be ignored that the requirements of keeping pets of apartment residents still remain. Especially, the apartment is a valuable choice for people who live alone, due to the housing area. In addition, the pets keeping is a current requirement for pets owners when they could not take care their pets in the period like travel and work overtime. 
@@ -165,10 +163,14 @@ Meanwhile, CSCW is also helpful in terms of cost-saving and time-efficiency. Gro
 
 # Team Charter
 
-Alex (Sheng Jing) MIDs jingsheng20@gmail.com 4429374
+Alex (Sheng Jing) MIDs jingsheng20@gmail.com 44293749
+
 Dee (Di Wang) MIDs wd171842@gmail.com 43714845
+
 Jane (Jiajing Sun) MIDs sunjiajing0815@gmail.com 44434832
+
 Tanya(Mengwei Lin) MIDs tanyalinlin@gmail.com 44169433
+
 Shawn (Xiaoyu Shang) MIDs 5loverevoluion@gmail.com 44010311
 
 Project Overview
@@ -185,19 +187,22 @@ At the initial phase, all team members will contribute to all aspects of the pro
  
 Person Roles in the team and expertise:
 
+Dee (Di Wang): Project Leader, Project Management, User Research, UI design, Prototyping
 
 Alex (Sheng Jing): Programming, Research
-Jane (Jiajing Sun)
-Prototyping, Programming, Graphic Design
-Tanya (Mengwei Lin)
-Graphic Design, Prototyping, User research
-Shawn (Xiaoyu Shang)
-Anthropology Field Work, Interview, General research, Web Programming, Graphic Design
+
+Jane (Jiajing Sun): Prototyping, Programming, Graphic Design
+
+Tanya (Mengwei Lin): Graphic Design, Prototyping, User research
+
+Shawn (Xiaoyu Shang): Anthropology Field Work, Interview, General research, Web Programming, Graphic Design
  
 The team leader will be responsible for logistics including physical equipment transportation, organize meetings, resolve conflicts, etc. All the other team members should commit to assist team leader to complete all milestones
  
 Team Dynamics
+
 Commitments to This Project
+
 As a team, we commit to:
 1. Use our best endeavors and effort at all times.
 2. Dedicate necessary time and effort as is required.
@@ -205,6 +210,7 @@ As a team, we commit to:
 4. Attend weekly meeting on time.
  
 Decision Making
+
 Decisions will be made collaboratively through the whole project. Our weekly meeting will be prioritized for major decision making and changing.
 1. Decisions about the project will be made by consensus across the whole team through discussion (consensus means everyone agreeing to all parts of the decision).
 2. We will work towards consensus by working through pros and cons for each decision to be made and making an assessment of what is best for the project.
@@ -218,6 +224,7 @@ Communication
 4. A shared Google Drive folder has been set-up to work collaboratively on documents and reflect process. The name of each file should be clear for all the team members to recognize.
  
 Meeting
+
 We will:
 1. Meet as a whole team every week during the practical session [Wednesday 1:00pm-3:00pm]. Absenteeism subject only to illness or other unavoidable personal commitments.
 2. Ensure that attendance at these meetings takes priority over other commitments.
@@ -234,6 +241,7 @@ Work Management
    c. The deliverable(s) and work standard that we expect to be delivered
  
 Teamwork
+
 To ensure that we work effectively as a team we:
 1. Will always support each other.
 2. Not limit our efforts to our specified roles but will help each other as much as we possibly can.
@@ -245,64 +253,100 @@ To ensure that we work effectively as a team we:
 8. Try coming out with replaceable ideas or suggestions before we object other’s ideas.
   
 Conflict Resolution
+
 If there are any disputes within the team relating to teamwork, we will:
 1. Admit that conflict is present and it needs to be resolved, by approaching the team members involved we will understand the problem from all perspectives.
 2. Reach for an agreement after understanding the problem as a team and move on if conflict is solved.
 3. If problem is still present, we will inform tutors and seek advice.
  
-7. Underperformance
+Underperformance
+
 If a team member is not completing work allocated to them or their work is not being completed within the defined timeframe or to the agreed standard, we will:
+
 Discuss with the whole group to re-evaluate the underperforming person’s role, responsibilities could be reallocated.
+
 In the circumstance that members still do not participate equally after multiple discussions the course coordinator will be informed and grade may be reduced.
 
 # Project Plan
 
-Week 6
+Week 6:
+
 Further Research
+
 Survey for target users, both Pet Owners and Pet Carers
-Week 7
+
+Week 7:
+
 Paper Prototype
+
 First version prototype
-Week 7
+
 Testing session
+
 Test paper prototype
-Week 8
+
+Week 8:
+
 Iteration
+
 Get feedback, analyse data, improve concept
-Week 8
+
 Digital Prototype
+
 Second version prototype, making changes based on first iteration result
-Week 9
+
+Week 9:
+
 Testing session
+
 Test digital prototype
-Week 10
+
+Week 10:
+
 Iteration
+
 Get feedback, analyse data, improve concept
-Week 10
+
 Interactive Prototype
+
 Third version prototype, make changes based on second iteration result
-Week 11
+
+Week 11:
+
 Testing session
+
 Test Interactive Prototype
-Week 12
+
+Week 12:
+
 Final iteration
+
 Get feedback, analyse data, improve concept
-Week 12
+
 Final package
+
 Improving product based on iteration result
-Week 13
+
+Week 13:
+
 Documentation
 
 # Tags
 
 #Coordination
+
 #Interconnection 
+
 #Collaboration 
+
 #Coordination 
+
 #Communication 
+
 #CSCW
 
 Domain: Community
+
 Keywords: Pet Care, Social Connection
 
 # Reference
