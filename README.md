@@ -7,7 +7,7 @@ In order to address this social issue, we generate a mobile application named â€
 
 # Background Research and Related Works
 
-Homeless animal situation in Australia
+
 According to PETA and the Sydney Morning Herald, there are more than 20,000 cats and dogs be euthanized and destroyed every year because there are not enough resources to take care of them before they could get adopted. Therefore, the situation we found in the background research is that: on the one hand, many good hearted people want to take care of little animals but cannot have pets for some external reasons. On the other hand, there are even more cats and dogs dead or unfairly treated because of a lack of resources.
 
 Government Policy and legal restrictions
@@ -283,6 +283,9 @@ Documentation
 Domain: Community
 Keywords: Pet Care, Social Connection
 
+Survey for Pet Keeping: https://docs.google.com/forms/d/e/1FAIpQLSddFCs-4k8vTKtlMukZjuMM7AGhHm1Wiq-qGPmkq_XsZs48yw/viewform
+Survey for Pet Keeper: https://docs.google.com/forms/d/e/1FAIpQLSdxJqPSa7Uu7W-plJQVpK5YyhFjBmA_GvMdzCUd63_EwnlZHQ/viewform
+Survey for Pets Keeping Volunteers: https://docs.google.com/forms/d/e/1FAIpQLScFQGMAXGJ17K3dZMJpsJSqOApx9unSA43okYSRM9_H3XSDdg/viewform
 
 # Reference
 
