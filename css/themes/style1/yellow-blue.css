@@ -313,7 +313,7 @@ hr {
 #topbar #topbar-search.open {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  width: 300px !important;
+  width: 200px !important;
   background-color: rgba(255, 255, 255, 0.15);
 }
 #topbar #topbar-search.open .input-group .form-control {
@@ -1305,8 +1305,8 @@ hr {
 }
 /* End Left Sidebar Collapsed */
 .page-content {
-  padding: 20px 20px 50px 20px;
-  min-height: 700px;
+  padding: 20px 20px 0px 20px;
+  min-height: 400px;
   clear: both;
 }
 #footer {
@@ -5246,6 +5246,7 @@ a.list-group-item.active > .badge,
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
+  margin-bottom: 10px;
 }
 .panel > .panel-heading {
   font-size: 18px;
@@ -6441,10 +6442,15 @@ fieldset[disabled] .btn-white.active {
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
 }
+.main-menu{
+}
+#myTabContent{
+  height: 420px;
+}
 .tab-content {
   background: #fff;
   padding: 20px 15px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   border: 1px solid;
   border-color: #e5e5e5 !important;
   border-top: 0;
