@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Horizontal Menu | Layouts</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="Thu, 19 Nov 1900 08:52:00 GMT">
+    <link rel="shortcut icon" href="images/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="images/icons/favicon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/icons/favicon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/icons/favicon-114x114.png">
+    <!--Loading bootstrap css-->
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700">
+    <link type="text/css" rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,700,300">
+    <link type="text/css" rel="stylesheet" href="vendors/jquery-ui-1.10.4.custom/css/ui-lightness/jquery-ui-1.10.4.custom.min.css">
+    <link type="text/css" rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+    <!--LOADING STYLESHEET FOR PAGE-->
+    <!--Loading style vendors-->
+    <link type="text/css" rel="stylesheet" href="vendors/animate.css/animate.css">
+    <link type="text/css" rel="stylesheet" href="vendors/iCheck/skins/all.css">
+    <link type="text/css" rel="stylesheet" href="vendors/jquery-notific8/jquery.notific8.min.css">
+    <link type="text/css" rel="stylesheet" href="vendors/bootstrap-daterangepicker/daterangepicker-bs3.css">
+    <!--Loading style-->
+    <link type="text/css" rel="stylesheet" href="css/themes/style1/yellow-blue.css" class="default-style">
+    <link type="text/css" rel="stylesheet" href="css/themes/style1/yellow-blue.css" id="theme-change" class="style-change color-change">
+    <link type="text/css" rel="stylesheet" href="css/style-responsive.css">
+</head>
+
+<body class="horizontal-menu-page clear-cookie ">
+    <div>
+        <div id="header-topbar-option-demo" class="page-header-topbar">
+            <nav id="topbar" role="navigation" style="margin-bottom: 0; z-index: 2;" class="navbar navbar-default navbar-static-top">
+                <div class="navbar-header">
+                    <a id="logo" href="index.html" style="padding:15px"><div style="clear:both;"><span class="logo-text" style="vertical-align: top">&nbsp WePet <i class="fa fa-paw" style=""></i></span></div></a>
+                </div>
+                <div class="topbar-main"><a id="menu-toggle" href="#" class="hidden-xs"><i class="fa fa-bars"></i></a>
+                    <form id="topbar-search" action="#" method="GET" >
+                        <div class="input-group">
+                            <input type="text" placeholder="Search..." class="form-control" /><span class="input-group-btn"><a href="javascript:;" class="btn submit"><i class="fa fa-search"></i></a></span>
+                        </div>
+                    </form>
+                    <ul class="nav navbar navbar-top-links navbar-left mbn text-right">
+                        <li class="dropdown"><a data-hover="dropdown" href="#" class="dropdown-toggle"><i class="fa fa-envelope fa-fw"></i><span class="badge badge-orange">7</span></a>
+                        </li>
+                        <li class="dropdown topbar-user">
+                            <a data-hover="dropdown" href="#" class="dropdown-toggle"><img src="https://s3.amazonaws.com/uifaces/faces/twitter/kolage/48.jpg" alt="" class="img-responsive img-circle" />&nbsp;<span class="hidden-xs">John Doe</span>&nbsp;<span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu dropdown-user pull-right">
+                                <li><a href="extra-profile.html"><i class="fa fa-user"></i>My Profile</a>
+                                </li>
+                                <li><a href="page-calendar.html"><i class="fa fa-calendar"></i>My Calendar</a>
+                                </li>
+                                <li><a href="email-inbox.html"><i class="fa fa-envelope"></i>My Inbox<span class="badge badge-danger">3</span></a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-tasks"></i>My Tasks<span class="badge badge-success">7</span></a>
+                                </li>
+                                <li class="divider"></li>
+                                <li><a href="extra-lock-screen.html"><i class="fa fa-lock"></i>Lock Screen</a>
+                                </li>
+                                <li><a href="extra-signin.html"><i class="fa fa-key"></i>Log Out</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li id="topbar-chat" class="hidden-xs"><a href="javascript:void(0)" class="btn-chat"><i class="fa fa-comments"></i><span class="badge badge-info">3</span></a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+            <!--BEGIN MODAL CONFIG PORTLET-->
+            <div id="modal-config" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" data-dismiss="modal" aria-hidden="true" class="close">&times;</button>
+                            <h4 class="modal-title">Modal title</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend et nisl eget porta. Curabitur elementum sem molestie nisl varius, eget tempus odio molestie. Nunc vehicula sem arcu, eu pulvinar neque cursus ac. Aliquam ultricies lobortis magna et aliquam. Vestibulum egestas eu urna sed ultricies. Nullam pulvinar dolor vitae quam dictum condimentum. Integer a sodales elit, eu pulvinar leo. Nunc nec aliquam nisi, a mollis neque. Ut vel felis quis tellus hendrerit placerat. Vivamus vel nisl non magna feugiat dignissim sed ut nibh. Nulla elementum, est a pretium hendrerit, arcu risus luctus augue, mattis aliquet orci ligula eget massa. Sed ut ultricies felis.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--END MODAL CONFIG PORTLET-->
+        </div>
+        <!--END TOPBAR-->
+        <div id="wrapper">
+            <!--BEGIN SIDEBAR MENU-->
+            <!--END SIDEBAR MENU-->
+            <!--BEGIN CHAT FORM-->
+            <!--END CHAT FORM-->
+            <!--BEGIN PAGE WRAPPER-->
+            <div id="page-wrapper">
+                <!--BEGIN CONTENT-->
+                <div class="page-content">
+                    <div class="row">
+                        <div class="col-lg-12">
+                        </div>
+                        <div class="panel">
+                            <div class="panel-body">
+                                <div class="main-menu col-lg-6">
+                                    <ul id="myTab" class="nav nav-tabs">
+                                        <li class="active"><a href="#home" data-toggle="tab">Home</a>
+                                        </li>
+                                        <li><a href="#profile" data-toggle="tab">Profile</a>
+                                        </li>
+                                        <li class="dropdown"><a id="myDrop" href="#" data-toggle="dropdown" class="dropdown-toggle">Dropdown
+                                            &nbsp;<b class="fa fa-angle-down"></b></a>
+                                            <ul role="menu" aria-labelledby="myDrop" class="dropdown-menu">
+                                                <li><a href="#dropdown1" tabindex="-1" data-toggle="tab">@fat</a>
+                                                </li>
+                                                <li><a href="#dropdown2" tabindex="-1" data-toggle="tab">@mdo</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <div id="myTabContent" class="tab-content">
+                                        <div id="home" class="tab-pane fade in active">
+                                            <div style="overflow: hidden;" class="portlet-body">
+                                                <div class="slimScrollDiv" style="position: relative; overflow: scroll; width: 100%; height: 400px;"><ul class="todo-list sortable ui-sortable" style="overflow: scroll; width: 100%; height: 100%;">
+                                                    <li class="clearfix" style="position: relative; left: 0px; top: 0px;"><span class="drag-drop"><i></i></span>
+                                                        <div class="todo-check pull-left">
+                                                            <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                        </div>
+                                                        <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="clearfix"><span class="drag-drop"><i></i></span>
+                                                        <div class="todo-check pull-left">
+                                                            <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                        </div>
+                                                        <div class="todo-title">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</div>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="clearfix"><span class="drag-drop"><i></i></span>
+                                                        <div class="todo-check pull-left">
+                                                            <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                        </div>
+                                                        <div class="todo-title">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id</div>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="clearfix"><span class="drag-drop"><i></i></span>
+                                                        <div class="todo-check pull-left">
+                                                            <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                        </div>
+                                                        <div class="todo-title">Et harum quidem rerum facilis est</div>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="clearfix"><span class="drag-drop"><i></i></span>
+                                                        <div class="todo-check pull-left">
+                                                            <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                        </div>
+                                                        <div class="todo-title">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet</div>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </li>
+                                                    <li class="clearfix"><span class="drag-drop"><i></i></span>
+                                                        <div class="todo-check pull-left">
+                                                            <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
+                                                        </div>
+                                                        <div class="todo-title">Excepteur sint occaecat cupidatat non proident</div>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
+                                                        </div>
+                                                    </li>
+                                                </ul><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 11px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 127.033px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
+                                            </div>
+                                        </div>
+                                        <div id="profile" class="tab-pane fade">
+                                            <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                                        </div>
+                                        <div id="dropdown1" class="tab-pane fade">
+                                            <p>Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably haven't heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p>
+                                        </div>
+                                        <div id="dropdown2" class="tab-pane fade">
+                                            <p>Trust fund seitan letterpress, keytar raw denim keffiyeh etsy art party before they sold out master cleanse gluten-free squid scenester freegan cosby sweater. Fanny pack portland seitan DIY, art party locavore wolf cliche high life echo park Austin. Cred vinyl keffiyeh DIY salvia PBR, banh mi before they sold out farm-to-table VHS viral locavore cosby sweater. Lomo wolf viral, mustache readymade thundercats keffiyeh craft beer marfa ethical. Wolf salvia freegan, sartorial keffiyeh echo park vegan. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-group btn-group-justified"><a role="button" class="btn btn-info">Community</a><a role="button" class="btn btn-success">Group</a><a role="button" class="btn btn-warning">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <!--END CONTENT-->
+            </div>
+            <!--END FOOTER-->
+            <!--END PAGE WRAPPER-->
+        </div>
+    </div>
+    <script src="js/jquery-1.10.2.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <!--loading bootstrap js-->
+    <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendors/bootstrap-hover-dropdown/bootstrap-hover-dropdown.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <script src="vendors/metisMenu/jquery.metisMenu.js"></script>
+    <script src="vendors/slimScroll/jquery.slimscroll.js"></script>
+    <script src="vendors/jquery-cookie/jquery.cookie.js"></script>
+    <script src="vendors/iCheck/icheck.min.js"></script>
+    <script src="vendors/iCheck/custom.min.js"></script>
+    <script src="vendors/jquery-notific8/jquery.notific8.min.js"></script>
+    <script src="vendors/jquery-highcharts/highcharts.js"></script>
+    <script src="js/jquery.menu.js"></script>
+    <script src="vendors/holder/holder.js"></script>
+    <script src="vendors/responsive-tabs/responsive-tabs.js"></script>
+    <script src="vendors/jquery-news-ticker/jquery.newsTicker.min.js"></script>
+    <script src="vendors/moment/moment.js"></script>
+    <script src="vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+    <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
+    <!--CORE JAVASCRIPT-->
+    <script src="js/main.js"></script>
+    <!--LOADING SCRIPTS FOR PAGE-->
+    <script type="text/javascript">
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+        ga('create', 'UA-145464-14', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
