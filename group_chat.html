@@ -187,25 +187,16 @@
                                         <div style="overflow: hidden;" class="portlet-body">
                                             <div class="slimScrollDiv" style="position: relative; overflow: scroll; width: 100%; height: 400px;"><ul class="todo-list sortable ui-sortable" style="overflow: scroll; width: 100%; height: 100%;">
                                                 <li class="clearfix"><span class="drag-drop"><i></i></span>
-                                                    <div class="todo-check pull-left">
-                                                        <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                                                    </div>
                                                     <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
                                                     <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
                                                     </div>
                                                 </li>
                                                 <li class="clearfix"><span class="drag-drop"><i></i></span>
-                                                    <div class="todo-check pull-left">
-                                                        <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                                                    </div>
                                                     <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
                                                     <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
                                                     </div>
                                                 </li>
                                                 <li class="clearfix"><span class="drag-drop"><i></i></span>
-                                                    <div class="todo-check pull-left">
-                                                        <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
-                                                    </div>
                                                     <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
                                                     <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-edit"></i></a><a href="#" class="todo-remove"><i class="fa fa-trash-o"></i></a>
                                                     </div>
@@ -218,6 +209,15 @@
                         </div>
                     </div>
                     <div class="btn-group btn-group-justified"><a role="button" class="btn btn-info">Community</a><a role="button" class="btn btn-success">Me</a><a role="button" class="btn btn-warning">Contact</a>
+                    </div>
+
+                </div>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content"><span class="close">&times;</span>
+                    <div class="panel-body result">
+
+
                     </div>
                 </div>
             </div>
@@ -360,6 +360,27 @@
 
         });
     });
+    $(document).ready(function () {
+        $(".viewbtn").click(function () {
+            $(".result").html(data);
+            $("#myModal").css("display", "block");
+        });
+        $(".close").click(function () {
+            $("#myModal").css("display", "none");
+            $(".result").empty();
+        })
+        $("#myModal").click(function (event) {
+            $(this).css("display", "none");
+            $(".result").empty();
+
+        });
+        var height = $('#wrapper').height();
+        var table_height = $('.table').height();
+        console.log(table_height);
+        $('#sidebar').height(height+table_height);
+
+    });
+
 </script>
 
 </body>
