@@ -493,6 +493,17 @@
 
         });
 
+        $('a.todo-agree').click(function(){
+            var $now = parseInt($(this).find("span").text());
+            $now = $now + 1;
+            $(this).find("span").text($now);
+        });
+
+        $('a.todo-disagree').click(function(){
+            var $now = parseInt($(this).find("span").text());
+            $now = $now + 1;
+            $(this).find("span").text($now);
+        });
 
     });
 
