@@ -161,7 +161,7 @@
                                                         <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                                     </div>
                                                     <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
-                                                    <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">7</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">7</span></a>
+                                                    <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">0</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">0</span></a>
                                                     </div>
                                                 </li>
                                                 <li class="clearfix"><span class="drag-drop"><i></i></span>
@@ -169,7 +169,7 @@
                                                         <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                                     </div>
                                                     <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
-                                                    <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">7</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">7</span></a>
+                                                    <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">0</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">0</span></a>
                                                     </div>
                                                 </li>
                                                 <li class="clearfix"><span class="drag-drop"><i></i></span>
@@ -177,7 +177,7 @@
                                                         <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                                     </div>
                                                     <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
-                                                    <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">7</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">7</span></a>
+                                                    <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">0</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">0</span></a>
                                                     </div>
                                                 </li>
                                             </ul><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 11px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 127.033px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
@@ -378,6 +378,18 @@
         var table_height = $('.table').height();
         console.log(table_height);
         $('#sidebar').height(height+table_height);
+
+        $('a.todo-agree').click(function(){
+            var $now = parseInt($(this).find("span").text());
+            $now = $now + 1;
+            $(this).find("span").text($now);
+        });
+
+        $('a.todo-disagree').click(function(){
+            var $now = parseInt($(this).find("span").text());
+            $now = $now + 1;
+            $(this).find("span").text($now);
+        });
 
     });
 
