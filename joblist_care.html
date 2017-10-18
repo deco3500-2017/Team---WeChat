@@ -34,7 +34,7 @@
 <body class="horizontal-menu-page clear-cookie ">
 <div>
     <div id="header-topbar-option-demo" class="page-header-topbar">
-        <nav id="topbar" role="navigation" style="margin-bottom: 0; z-index: 2;" class="navbar navbar-default navbar-fixed-top"">
+        <nav id="topbar" role="navigation" style="margin-bottom: 0; z-index: 2;" class="navbar navbar-default navbar-fixed-top">
             <div class="navbar-header">
                 <a id="logo" href="index.html" style="padding:15px"><div style="clear:both;"><span class="logo-text" style="vertical-align: top">&nbsp WePet <i class="fa fa-paw" style=""></i></span></div></a>
             </div>
@@ -207,8 +207,16 @@
 <script src="vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
 <script src="vendors/bootstrap-daterangepicker/daterangepicker.js"></script>
 <!--CORE JAVASCRIPT-->
-<script src="js/main.js"></script>
 <!--LOADING SCRIPTS FOR PAGE-->
+<script type="text/javascript">
+    $(document).ready(function(){
+        console.log(1);
+        $('.group-info button').click(function(){
+            window.location.href = "group_chat.html?x=1";
+        });
+    });
+</script>
+
 
 </body>
 

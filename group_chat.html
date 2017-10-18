@@ -172,7 +172,7 @@
                                                             <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                                         </div>
                                                         <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
-                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">7</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">7</span></a>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">3</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">0</span></a>
                                                         </div>
                                                     </li>
                                                     <li class="clearfix"><span class="drag-drop"><i></i></span>
@@ -180,7 +180,7 @@
                                                             <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                                         </div>
                                                         <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
-                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">7</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">7</span></a>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">1</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">2</span></a>
                                                         </div>
                                                     </li>
                                                     <li class="clearfix"><span class="drag-drop"><i></i></span>
@@ -188,7 +188,7 @@
                                                             <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
                                                         </div>
                                                         <div class="todo-title">Sed ut perspiciatis unde omnis iste</div>
-                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">7</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">7</span></a>
+                                                        <div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">0</span></a><a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">3</span></a>
                                                         </div>
                                                     </li>
                                                 </ul><div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 11px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 127.033px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div></div>
@@ -374,6 +374,7 @@
 <script src="vendors/jquery-notific8/jquery.notific8.min.js"></script>
 <script src="vendors/jquery-highcharts/highcharts.js"></script>
 <script src="js/jquery.menu.js"></script>
+<script src="vendors/jquery-pace/pace.min.js"></script>
 <script src="vendors/holder/holder.js"></script>
 <script src="vendors/responsive-tabs/responsive-tabs.js"></script>
 <script src="vendors/jquery-news-ticker/jquery.newsTicker.min.js"></script>
@@ -383,6 +384,16 @@
 <!--CORE JAVASCRIPT-->
 <script src="js/main.js"></script>
 <!--LOADING SCRIPTS FOR PAGE-->
+<script src="vendors/intro.js/intro.js"></script>
+<script src="vendors/flot-chart/jquery.flot.js"></script>
+<script src="vendors/flot-chart/jquery.flot.categories.js"></script>
+<script src="vendors/flot-chart/jquery.flot.pie.js"></script>
+<script src="vendors/flot-chart/jquery.flot.tooltip.js"></script>
+<script src="vendors/flot-chart/jquery.flot.resize.js"></script>
+<script src="vendors/flot-chart/jquery.flot.fillbetween.js"></script>
+<script src="vendors/flot-chart/jquery.flot.stack.js"></script>
+<script src="vendors/flot-chart/jquery.flot.spline.js"></script>
+<script src="vendors/calendar/zabuto_calendar.min.js"></script>
 <script src="vendors/sco.message/sco.message.js"></script>
 <script src="vendors/intro.js/intro.js"></script>
 <script>
@@ -479,6 +490,57 @@
         });
     });
     $(document).ready(function () {
+
+        if(GetURLParameter('x')){
+            console.log(325);
+            var $me = $("ul.chats");
+
+            var d = new Date();
+            var h = d.getHours();
+            var m = d.getMinutes();
+            if (m < 10) m = "0" + m;
+
+            var element = "";
+            element += "<li class='out'>";
+            element += "<img class='avatar' src='https://s3.amazonaws.com/uifaces/faces/twitter/kolage/48.jpg'>";
+            element += "<div class='message'>";
+            element += "<span class='chat-arrow'></span>";
+            element += "<a class='chat-name' href='#'>Admin &nbsp;</a>";
+            element += "<span class='chat-datetime'>at July 6, 2014" + h + ":" + m + "</span>";
+            element += "<span class='chat-body'>" + "Shared a job" + "</span>";
+            element += "</div>";
+            element += "</li>";
+
+            $me.append(element);
+            var height = 0;
+            $me.find('li').each(function(i, value){
+                height += parseInt($(this).height());
+            });
+            height += '';
+
+            $('.chat-scroller').slimScroll({
+                scrollTo: height,
+                "wheelStep": 30,
+            });
+
+            var $shared = ''
+            $shared += '<li class="clearfix"><span class="drag-drop"><i></i></span>';
+            $shared += '<div class="todo-check pull-left">';
+            $shared += '<div class="icheckbox_minimal-grey" style="position: relative;"><input';
+            $shared += 'type="checkbox" value="" style="position: absolute; top: -20%; left: -20%;'; $shared += 'display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background:' ;
+            $shared += 'rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper"'; $shared += 'style="position: absolute; top: -20%; left: -20%; display: block; width:'; $shared += '140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>';
+            $shared += '</div>';
+            $shared += '<div class="todo-title">New Job</div>';
+            $shared += '<div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">0</span></a>';
+            $shared += '<a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">0</span></a>';
+            $shared += '</div></li>';
+
+            $('#profile ul.todo-list').prepend($shared);
+
+        }else{
+            console.log(1);
+        }
+
         $(".job-detail").hide();
         $("#group-no").hide();
         $(".job").click(function () {
@@ -493,18 +555,39 @@
         });
 
         $('a.todo-agree').click(function(e){
-            var $now = parseInt($(this).find("span").text());
-            $now = $now + 1;
-            $(this).find("span").text($now);
+            if ($(this).hasClass("voted")){
+
+            }else{
+                $(this).addClass('voted');
+                $(this).next().addClass('voted');
+                $(this).parent().parent().css('background-color','#aaaaaa');
+                var $now = parseInt($(this).find("span").text());
+                $now = $now + 1;
+                $(this).find("span").text($now);
+                if($now >= 4){
+                    $(this).parent().parent().css('background-color','#a8e09f');
+                }
+            }
             e.stopPropagation();
         });
 
         $('a.todo-disagree').click(function(e){
-            var $now = parseInt($(this).find("span").text());
-            $now = $now + 1;
-            $(this).find("span").text($now);
+            if ($(this).hasClass("voted")){
+
+            }else{
+                $(this).addClass('voted');
+                $(this).prev().addClass('voted');
+                $(this).parent().parent().css('background-color','#aaaaaa');
+                var $now = parseInt($(this).find("span").text());
+                $now = $now + 1;
+                $(this).find("span").text($now);
+                if($now >= 4){
+                    $(this).parent().parent().css('background-color','#8c8c8c');
+                }
+            }
             e.stopPropagation();
         });
+
         $("#myTab li:first-of-type button").click(function(){
             $("#group-joined").hide();
             $("#group-no").show();
@@ -512,8 +595,22 @@
 
         });
 
+        $('#myTasks .fa-check').click(function(){
+            $(this).parent().parent().parent().css('background-color','#aaaaaa');
+        });
 
     });
+
+    function GetURLParameter(sParam){
+        var sPageURL = window.location.search.substring(1);
+        var sURLVariables = sPageURL.split('&');
+        for (var i = 0; i < sURLVariables.length; i++) {
+            var sParameterName = sURLVariables[i].split('=');
+            if (sParameterName[0] == sParam) {
+                return sParameterName[1];
+            }
+        }
+    }
 
 
 </script>
