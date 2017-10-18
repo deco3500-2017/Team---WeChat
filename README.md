@@ -1,7 +1,14 @@
 # Standup Document:
-https://github.com/deco3500-2017/Team-WeChat/blob/master/Documents/Stand-up%20Document%20Week%2010.xlsx
+
+Week 12 Standup:
 
 https://github.com/deco3500-2017/Team-WeChat/blob/master/Documents/Stand-up%20Document%20Week%2012.xlsx
+
+Week 10 Standup:
+
+https://github.com/deco3500-2017/Team-WeChat/blob/master/Documents/Stand-up%20Document%20Week%2010.xlsx
+
+
 
 # Team-WeChat
 
