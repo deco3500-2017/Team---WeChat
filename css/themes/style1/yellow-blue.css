@@ -8156,6 +8156,9 @@ footer {
   display: inline-block;
   width: 60px;
   height: 34px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-right:70px;
 }
 
 .switch input {display:none;}
@@ -8209,4 +8212,17 @@ input:checked + .slider:before {
 }
 .btn-to-right{
   float:right;
+}
+.switch a{
+  font-size: 15px;
+  color: #FFFFFF;
+}
+.switch a.active{
+  text-decoration: underline;
+}
+.members img{
+  float:left;
+  position:relative;
+  display: inline-block;
+  margin-left: 15px;
 }
