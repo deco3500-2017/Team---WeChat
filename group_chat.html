@@ -114,7 +114,7 @@
                                 <ul id="myTab" class="nav nav-tabs">
                                     <li class="active"><a href="#home" data-toggle="tab">Group <button type="button" class="btn btn-default btn-xs"><i class="fa fa-sign-out"></i></button></a>
                                     </li>
-                                    <li><a href="#profile" data-toggle="tab">Shared Jobs</a>
+                                    <li><a href="#profile" data-toggle="tab">To-do List</a>
                                     </li>
                                     <li><a href="#myTasks" data-toggle="tab">My Tasks</a>
                                     </li>
@@ -566,12 +566,12 @@
             }else{
                 $(this).addClass('voted');
                 $(this).next().addClass('voted');
-                $(this).parent().parent().css('background-color','#cccccc');
+                $(this).parent().parent().css('background-color','#aaaaaa');
                 var $now = parseInt($(this).find("span").text());
                 $now = $now + 1;
                 $(this).find("span").text($now);
                 if($now >= 4){
-                    $(this).parent().parent().css('background-color','rgb(153,206,125)');
+                    $(this).parent().parent().css('background-color','#a8e09f');
                 }
             }
             e.stopPropagation();
@@ -583,7 +583,7 @@
             }else{
                 $(this).addClass('voted');
                 $(this).prev().addClass('voted');
-                $(this).parent().parent().css('background-color','#cccccc');
+                $(this).parent().parent().css('background-color','#aaaaaa');
                 var $now = parseInt($(this).find("span").text());
                 $now = $now + 1;
                 $(this).find("span").text($now);
