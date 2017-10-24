@@ -114,7 +114,7 @@
                                 <ul id="myTab" class="nav nav-tabs">
                                     <li class="active"><a href="#home" data-toggle="tab">Group <button type="button" class="btn btn-default btn-xs"><i class="fa fa-sign-out"></i></button></a>
                                     </li>
-                                    <li><a href="#profile" data-toggle="tab">To-do List</a>
+                                    <li><a href="#profile" data-toggle="tab">To-do List<span class="badge badge-green">1</span></a>
                                     </li>
                                     <li><a href="#myTasks" data-toggle="tab">My Tasks</a>
                                     </li>
@@ -164,7 +164,7 @@
                                         <div style="overflow: hidden;" class="portlet-body job-tab">
                                             <div class="job-list">
 
-                                                <div class="slimScrollDiv job" style="position: relative; overflow: scroll; width: 100%; height: 400px;"><ul class="todo-list sortable ui-sortable" style="overflow: scroll; width: 100%; height: 100%;">
+                                                <div class="slimScrollDiv job" style="position: relative; overflow: scroll; width: 100%; height: 400px;"><ul id="show-job-list" class="todo-list sortable ui-sortable" style="overflow: scroll; width: 100%; height: 100%;">
                                                     <li class="clearfix"><span class="drag-drop"><i></i></span>
                                                         <div class="todo-check pull-left">
                                                             <div class="icheckbox_minimal-grey" style="position: relative;"><input type="checkbox" value="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>
@@ -234,7 +234,7 @@
                                                                     <h5>Task 1</h5>
                                                                 </div>
                                                                 <div class="task-info col-xs-6 text-right">
-                                                                    <button class="btn-success btn-xs">Take the Job</button>
+                                                                    <button class="btn-success btn-xs takeable">Take the Job</button>
                                                                 </div>
 
                                                             </div>
@@ -282,7 +282,7 @@
                                                                     <h5>Task 4</h5>
                                                                 </div>
                                                                 <div class="task-info col-xs-6 text-right">
-                                                                    <button class="btn-success btn-xs">Take the Job</button>
+                                                                    <button class="btn-success btn-xs takeable">Take the Job</button>
                                                                 </div>
 
                                                             </div>
@@ -314,7 +314,7 @@
                                                                     <h5>Task 6</h5>
                                                                 </div>
                                                                 <div class="task-info col-xs-6 text-right">
-                                                                    <button class="btn-success btn-xs">Take the Job</button>
+                                                                    <button class="btn-success btn-xs takeable">Take the Job</button>
                                                                 </div>
 
                                                             </div>
@@ -331,7 +331,7 @@
                                     </div>
                                     <div id="myTasks" class="tab-pane fade">
                                         <div style="overflow: hidden;" class="portlet-body">
-                                            <div class="slimScrollDiv" style="position: relative; overflow: scroll; width: 100%; height: 400px;"><ul class="todo-list sortable ui-sortable" style="overflow: scroll; width: 100%; height: 100%;">
+                                            <div class="slimScrollDiv" style="position: relative; overflow: scroll; width: 100%; height: 400px;"><ul id="my-tasks" class="todo-list sortable ui-sortable" style="overflow: scroll; width: 100%; height: 100%;">
                                                 <li class="clearfix"><span class="drag-drop"><i></i></span>
                                                     <div class="todo-title">Walk Tim Every Monday</div>
                                                     <div class="todo-actions pull-right clearfix"><a href="#" class="todo-complete"><i class="fa fa-check"></i></a><a href="#" class="todo-edit"><i class="fa fa-phone"></i></a><a href="#" class="todo-remove"><i class="fa fa-question"></i></a>
@@ -497,7 +497,10 @@
     });
     $(document).ready(function () {
 
+        $('#myTab li a span').css('visibility','hidden');
+
         if(GetURLParameter('x')){
+            $('#myTab li a span').css('visibility','visible');
             console.log(325);
             var $me = $("ul.chats");
 
@@ -534,14 +537,20 @@
             $shared += '<div class="todo-check pull-left">';
             $shared += '<div class="icheckbox_minimal-grey" style="position: relative;"><input';
             $shared += 'type="checkbox" value="" style="position: absolute; top: -20%; left: -20%;'; $shared += 'display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background:' ;
-            $shared += 'rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper"'; $shared += 'style="position: absolute; top: -20%; left: -20%; display: block; width:'; $shared += '140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>';
+            $shared += 'rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper"';
+            $shared += 'style="position: absolute; top: -20%; left: -20%; display: block; width:';
+            $shared += '140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div>';
             $shared += '</div>';
-            $shared += '<div class="todo-title">New Job</div>';
+            $shared += '<div class="todo-title"><h5>New Job</h5>'
+            $shared += '<p>I am leaving for a trip, need someone to take care of my dog</p></div>';
+
             $shared += '<div class="todo-actions pull-right clearfix"><a href="#" class="todo-agree"><i class="fa fa-thumbs-up"></i><span class="badge badge-green">0</span></a>';
             $shared += '<a href="#" class="todo-disagree"> <i class="fa fa-thumbs-down"></i><span class="badge badge-red">0</span></a>';
             $shared += '</div></li>';
 
-            $('#profile ul.todo-list').prepend($shared);
+            $('#profile ul#show-job-list').prepend($shared);
+
+            $('#myTab')
 
         }else{
             console.log(1);
@@ -603,6 +612,26 @@
 
         $('#myTasks .fa-check').click(function(){
             $(this).parent().parent().parent().css('background-color','#aaaaaa');
+        });
+
+        $('#myTasks').on('click','.fa-check',function(){
+            $(this).parent().parent().parent().css('background-color','#aaaaaa');
+        });
+
+        var taken_task = "";
+        taken_task += '<li class="clearfix"><span class="drag-drop"><i></i></span>';
+        taken_task += '<div class="todo-title">Walk Tim Every Monday</div>'
+        taken_task += '<div class="todo-actions pull-right clearfix"><a href="#"';
+        taken_task += 'class="todo-complete"><i class="fa fa-check"></i></a><a href="#"';
+        taken_task += 'class="todo-edit"><i class="fa fa-phone"></i></a><a href="#"';
+        taken_task += 'class="todo-remove"><i class="fa fa-question"></i></a>';
+        taken_task += '</div></li>';
+
+        $("button.takeable").click(function(){
+            $(this).text("Taken by me");
+            $(this).removeClass("btn-success");
+            $(this).addClass("btn-default");
+            $("ul#my-tasks").prepend(taken_task);
         });
 
     });
