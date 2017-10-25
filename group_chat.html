@@ -114,7 +114,7 @@
                                 <ul id="myTab" class="nav nav-tabs">
                                     <li class="active"><a href="#home" data-toggle="tab">Group <button type="button" class="btn btn-default btn-xs"><i class="fa fa-sign-out"></i></button></a>
                                     </li>
-                                    <li><a href="#profile" data-toggle="tab">To-do list&nbsp;<span class="badge badge-red">1</span></a>
+                                    <li><a href="#profile" data-toggle="tab">To-do list&nbsp;<span class="badge badge-red to-do-left">3</span></a>
                                     </li>
                                     <li><a href="#myTasks" data-toggle="tab">My Tasks</a>
                                     </li>
@@ -497,13 +497,13 @@
     });
     $(document).ready(function () {
 
-        $('#myTab li a span').css('visibility','hidden');
-
         if(GetURLParameter('x')){
             $('#myTab li a span').css('visibility','visible');
             console.log(325);
             var $me = $("ul.chats");
-
+            var left = parseInt($("span.to-do-left").text());
+            left = left + 1;
+            $("span.to-do-left").text(left);
             var d = new Date();
             var h = d.getHours();
             var m = d.getMinutes();
@@ -575,6 +575,12 @@
             }else{
                 $(this).addClass('voted');
                 $(this).next().addClass('voted');
+                var tmp = parseInt($("span.to-do-left").text());
+                tmp = tmp - 1;
+                $("span.to-do-left").text(tmp);
+                if(tmp == 0){
+                    $("span.to-do-left").css("visibility","hidden");
+                }
                 $(this).parent().parent().css('background-color','#aaaaaa');
                 var $now = parseInt($(this).find("span").text());
                 $now = $now + 1;
@@ -592,7 +598,12 @@
             }else{
                 $(this).addClass('voted');
                 $(this).prev().addClass('voted');
-
+                var tmp = parseInt($("span.to-do-left").text());
+                tmp = tmp - 1;
+                $("span.to-do-left").text(tmp);
+                if(tmp == 0){
+                    $("span.to-do-left").css("visibility","hidden");
+                }
                 $(this).parent().parent().css('background-color','#aaaaaa');
                 var $now = parseInt($(this).find("span").text());
                 $now = $now + 1;
