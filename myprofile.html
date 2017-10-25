@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-image: url("images/mockup/Owner_Profile.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="logout" style="width:105px;height:40px;margin-top:395px;margin-left:125px;"></div>
+    <div id="job" style="width:108px;height:30px;margin-top:150px;margin-left:25px;"></div>
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("div#logout").click(function(){
+            window.location.href = "login_owner.html";
+        });
+        $("div#job").click(function(){
+            window.location.href = "owner_profile.html";
+        });
+    });
+</script>
+</html>

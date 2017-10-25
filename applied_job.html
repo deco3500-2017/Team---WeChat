@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+
+        body {
+            background-image: url("images/mockup/applied_job.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="back" style="width:120px;height:33px;margin-top:120px;margin-left:24px;"></div>
+    <div id="select" style="width:30px;height:33px;margin-top:175px;margin-left:294px;"></div>
+    <div id="me" style="width:108px;height:30px;margin-top:220px;margin-left:130px;"></div>
+</body>
+<script src="js/jquery-1.10.2.min.js"></script>
+<script src="js/jquery-migrate-1.2.1.min.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("div#back").click(function(){
+            window.location.href = "owner_profile.html";
+        });
+        $("div#select").click(function(){
+            window.location.href = "grouplist_owner.html";
+        });
+        $("div#me").click(function(){
+            window.location.href = "owner_group_chat.html";
+        });
+    });
+
+</script>
+</html>
