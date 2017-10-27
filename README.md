@@ -1,4 +1,4 @@
-#Final Design Document:
+# Final Design Document:
 
 https://github.com/deco3500-2017/Team-WeChat/blob/master/Documents/Final%20Document.pdf
 
