@@ -2,7 +2,7 @@
 
 https://github.com/deco3500-2017/Team-WeChat/blob/master/Documents/Final%20Document.pdf
 
-# Final Interactive Prototype:
+# Interactive Prototype:
 
 https://s4443483-deco7180.uqcloud.net/deco7350/login_carer.html
 
